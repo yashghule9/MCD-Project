@@ -1,0 +1,22 @@
+$begin 'imprintInfo'
+	FileVersion='2025R2'
+	$begin 'imprintIDMap'
+	$end 'imprintIDMap'
+	$begin 'PartsInfo'
+		Part(6, 'Substrate', -1, 6, 7, 9, 10, 11, 8, 12)
+		Part(34, 'Air', -1, 6, 35, 37, 38, 39, 36, 40)
+		Part(62, 'Ground', -1, 1, 72)
+		Part(74, 'Top', -1, 1, 84)
+		Part(178, 'Island', -1, 1, 188)
+		Part(190, 'R_iso', -1, 1, 200)
+		Part(202, 'L_iso', -1, 1, 212)
+		Part(214, 'C_iso', -1, 1, 224)
+		Part(226, 'Port1', -1, 1, 236)
+		Part(238, 'Port2', -1, 1, 248)
+		Part(250, 'Port3', -1, 1, 260)
+	$end 'PartsInfo'
+	$begin 'PartAddtionalPiecesInfo'
+	$end 'PartAddtionalPiecesInfo'
+	$begin 'faceImprintInfo'
+	$end 'faceImprintInfo'
+$end 'imprintInfo'

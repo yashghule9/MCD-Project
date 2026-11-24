@@ -28,9 +28,13 @@ for n = 1:3
         names{n}, Zvals(n), W*1e3, eeff, L*1e3);
 end
 
-fprintf('\nCoupled-line starting guess: W ~= %.2f mm (average of Ze,Zo guesses), gap S ~= h = %.2f mm.\n', ...
-    mean([hammerstad_width(Ze,er,h) hammerstad_width(Zo,er,h)])*1e3, h*1e3);
-fprintf('Tune W and S in HFSS/CST Optimetrics/Optimizer to hit Ze=%.2f ohm, Zo=%.2f ohm exactly.\n', Ze, Zo);
+% ---- Final coupled-pair geometry, from coupled_line_synthesis.m (2-D FD solver)
+Wc = 1.44e-3; Sc = 0.48e-3; ee_e = 1.8879; ee_o = 1.6910;
+Lc = mean(th_f1/(2*pi) * c0 ./ (f1*sqrt([ee_e ee_o])));
+fprintf('\nCoupled pair (final, used in HFSS): W = %.2f mm, S = %.2f mm, Lc = %.3f mm\n', Wc*1e3, Sc*1e3, Lc*1e3);
+fprintf('  (Lc = mean of the even- and odd-mode lengths for 36 deg at f1)\n');
+[W50, ee50] = hammerstad_width(50, er, h);
+fprintf('50-ohm feed lines: W = %.2f mm (eps_eff = %.3f)\n', W50*1e3, ee50);
 
 function [W, eeff] = hammerstad_width(Z0, er, h)
     A = Z0/60*sqrt((er+1)/2) + (er-1)/(er+1)*(0.23+0.11/er);

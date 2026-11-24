@@ -1,0 +1,31 @@
+               f |     S11     S21     S31     S22     S33     S23
+model       0.50 | -322.31   -3.01   -3.01 -329.28 -329.28 -322.06
+HFSS (EM)   0.50 |  -32.39   -3.06   -3.06  -33.33  -33.26  -46.44
+HFSS tuned  0.50 |  -32.35   -3.06   -3.06  -31.10  -30.96  -35.73
+model       2.00 | -311.81   -3.01   -3.01 -323.55 -323.55 -316.10
+HFSS (EM)   2.00 |  -25.97   -3.14   -3.13  -19.97  -19.79  -20.59
+HFSS tuned  2.00 |  -25.74   -3.14   -3.14  -21.82  -21.64  -26.45
+HFSS (EM): S11 null in 0.2-1.0 GHz at 0.490 GHz = -33.1 dB
+HFSS (EM): S11 null in 1.4-2.6 GHz at 1.970 GHz = -32.3 dB
+HFSS (EM): S22 null in 0.2-1.0 GHz at 0.500 GHz = -33.3 dB
+HFSS (EM): S22 null in 1.4-2.6 GHz at 1.770 GHz = -37.4 dB
+HFSS (EM): S23 null in 0.2-1.0 GHz at 0.500 GHz = -46.4 dB
+HFSS (EM): S23 null in 1.4-2.6 GHz at 1.950 GHz = -28.5 dB
+HFSS (EM): S11 -15 dB band around 0.5 GHz: 0.340-0.630 GHz
+HFSS (EM): S11 -15 dB band around 2.0 GHz: 1.840-2.110 GHz
+HFSS (EM): S22 -15 dB band around 0.5 GHz: 0.360-0.640 GHz
+HFSS (EM): S22 -15 dB band around 2.0 GHz: 1.270-2.100 GHz
+HFSS (EM): S23 -15 dB band around 0.5 GHz: 0.430-0.570 GHz
+HFSS (EM): S23 -15 dB band around 2.0 GHz: 1.840-2.050 GHz
+HFSS tuned (L=7.6 nH): S11 null in 0.2-1.0 GHz at 0.490 GHz = -33.0 dB
+HFSS tuned (L=7.6 nH): S11 null in 1.4-2.6 GHz at 1.960 GHz = -32.1 dB
+HFSS tuned (L=7.6 nH): S22 null in 0.2-1.0 GHz at 0.510 GHz = -33.1 dB
+HFSS tuned (L=7.6 nH): S22 null in 1.4-2.6 GHz at 1.900 GHz = -26.6 dB
+HFSS tuned (L=7.6 nH): S23 null in 0.2-1.0 GHz at 0.510 GHz = -41.7 dB
+HFSS tuned (L=7.6 nH): S23 null in 1.4-2.6 GHz at 1.980 GHz = -30.0 dB
+HFSS tuned (L=7.6 nH): S11 -15 dB band around 0.5 GHz: 0.340-0.630 GHz
+HFSS tuned (L=7.6 nH): S11 -15 dB band around 2.0 GHz: 1.840-2.110 GHz
+HFSS tuned (L=7.6 nH): S22 -15 dB band around 0.5 GHz: 0.360-0.670 GHz
+HFSS tuned (L=7.6 nH): S22 -15 dB band around 2.0 GHz: 1.290-2.120 GHz
+HFSS tuned (L=7.6 nH): S23 -15 dB band around 0.5 GHz: 0.440-0.570 GHz
+HFSS tuned (L=7.6 nH): S23 -15 dB band around 2.0 GHz: 1.880-2.070 GHz

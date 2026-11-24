@@ -1,0 +1,61 @@
+ 
+Ansys Electronics Desktop Student Version 2025.2.4, Build: 2025-11-06 17:01:32
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Batch Script: C:/Users/Karthik/Documents/yash/MCD-Project/em/build_hfss.py
+Starting Batch Run: 12:56:19 PM  Nov 24, 2026
+Running as user : LAPTOP-P82QSNVB\Karthik
+Temp directory: C:\temp
+Project directory: C:\Users\Karthik\Documents\Ansoft
+-- Message Window --
+      wilkinson_dualband (C:/Users/Karthik/Documents/yash/MCD-Project/em/)
+        Wilkinson (Hybrid Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (12:56:48 PM  Nov 24, 2026)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (12:56:48 PM  Nov 24, 2026)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (12:56:48 PM  Nov 24, 2026)
+          [info] An interpolating frequency sweep with 251 points has been started using HFSS - Solving Distributed. (12:59:24 PM  Nov 24, 2026)
+          [info] Interpolating frequency sweep complete. Converged. (12:59:24 PM  Nov 24, 2026)
+          [info] Normal completion of simulation on server: Local Machine. (12:59:24 PM  Nov 24, 2026)
+          [info] Touchstone export: Writing to "C:/Users/Karthik/Documents/yash/MCD-Project/em/wilkinson_dualband.s3p" (12:59:27 PM  Nov 24, 2026)
+-- Message Window --
+Stopping Batch Run: 12:59:39 PM  Nov 24, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.4, Build: 2025-11-06 17:01:32
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Batch Script: C:/Users/Karthik/Documents/yash/MCD-Project/em/build_hfss.py
+Starting Batch Run: 1:00:12 PM  Nov 24, 2026
+Running as user : LAPTOP-P82QSNVB\Karthik
+Temp directory: C:\temp
+Project directory: C:\Users\Karthik\Documents\Ansoft
+-- Message Window --
+      tune_L7.6 (C:/Users/Karthik/Documents/yash/MCD-Project/em/)
+        Wilkinson (Hybrid Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (01:01:52 PM  Nov 24, 2026)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (01:01:53 PM  Nov 24, 2026)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (01:01:53 PM  Nov 24, 2026)
+          [warning] Adaptive Passes did not converge based on specified criteria. (01:03:03 PM  Nov 24, 2026)
+          [info] An interpolating frequency sweep with 251 points has been started using HFSS - Solving Distributed. (01:03:03 PM  Nov 24, 2026)
+          [info] Interpolating frequency sweep complete. Converged. (01:04:03 PM  Nov 24, 2026)
+          [info] Normal completion of simulation on server: Local Machine. (01:04:03 PM  Nov 24, 2026)
+          [info] Touchstone export: Writing to "C:/Users/Karthik/Documents/yash/MCD-Project/em/tune_L7.6.s3p" (01:04:05 PM  Nov 24, 2026)
+-- Message Window --
+Stopping Batch Run: 1:04:18 PM  Nov 24, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.4, Build: 2025-11-06 17:01:32
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Batch Script: C:/Users/Karthik/Documents/yash/MCD-Project/em/build_hfss.py
+Starting Batch Run: 1:04:27 PM  Nov 24, 2026
+Running as user : LAPTOP-P82QSNVB\Karthik
+Temp directory: C:\temp
+Project directory: C:\Users\Karthik\Documents\Ansoft
+-- Message Window --
+      tune_L6.8 (C:/Users/Karthik/Documents/yash/MCD-Project/em/)
+        Wilkinson (Hybrid Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (01:05:18 PM  Nov 24, 2026)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (01:05:18 PM  Nov 24, 2026)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (01:05:19 PM  Nov 24, 2026)
+          [info] An interpolating frequency sweep with 251 points has been started using HFSS - Solving Distributed. (01:08:51 PM  Nov 24, 2026)
+          [info] Interpolating frequency sweep complete. Converged. (01:08:51 PM  Nov 24, 2026)
+          [info] Normal completion of simulation on server: Local Machine. (01:08:51 PM  Nov 24, 2026)
+          [info] Touchstone export: Writing to "C:/Users/Karthik/Documents/yash/MCD-Project/em/tune_L6.8.s3p" (01:08:54 PM  Nov 24, 2026)
+-- Message Window --
+Stopping Batch Run: 1:09:06 PM  Nov 24, 2026
